@@ -1,18 +1,8 @@
-// Array of numbers
-const numbers = [1, 2, 3, 4, 5];
-
-// Using a for loop to calculate the sum
-let sumForLoop = 0;
-for (let i = 0; i < numbers.length; i++) {
-    sumForLoop += numbers[i];
-}
-
-console.log("Sum using for loop:", sumForLoop);
-
-// Using a forEach loop to calculate the sum
-let sumForEachLoop = 0;
-numbers.forEach(function(number) {
-    sumForEachLoop += number;
-});
-
-console.log("Sum using forEach loop:", sumForEachLoop);
+var MyName = ["Red", "Green", "White", "Black"];
+console.log(MyName.join(','));
+console.log(MyName.join('+'));
+console.log(MyName.slice(0, 3).join(','));
+console.log(MyName[0]);
+console.log(MyName.slice(1).join(','));
+MyName.push("orange");
+console.log(MyName.join(','));
